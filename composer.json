@@ -1,0 +1,23 @@
+{
+    "name": "delhombre/fizzbuzz",
+    "autoload": {
+        "psr-4": {
+            "Delhombre\\FizzBuzz\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Delhombre\\FizzBuzz\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "delhombre",
+            "email": "brunodogbase@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10.3",
+        "spatie/phpunit-watcher": "^1.23"
+    }
+}
